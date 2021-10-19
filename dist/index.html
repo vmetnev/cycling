@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="holder">
+<table>
+
+<tr>
+    
+    <th colspan=2 >Current sec:</th>
+    <th >Of tot sec:</th>
+</tr>
+
+<tr>
+    
+    <td colspan=2  class="line" id="timer-of-current">0:00</td>
+    <td  class="line" id="total-of-current">0:00</td>
+</tr>
+
+
+<tr>
+    <th>Speed</th>
+    <th>Strength</th>
+    <th>Position</th>
+</tr>
+
+<tr>
+    <td class="line" id="speed">0</td>
+    <td class="line" id="strength">0</td>
+    <td class="line" id="position">-</td>
+</tr>
+
+
+
+<tr>
+    <th>Next SP</th>
+    <th>Next ST</th>
+    <th>N POS</th>
+</tr>
+
+
+<tr>
+    <td class="line" id="next-speed">0</td>
+    <td class="line" id="next-strength">0</td>
+    <td class="line" id="next-position">-</td>
+</tr>
+
+
+<tr>
+    <td id="left"></td>
+    <td id="center"></td>
+    <td id="right"></td>
+
+    
+</tr>
+
+
+<tr><td class="small-text" colspan=3><span class="bold">Progress: </span><span id="progress">0%</span></td></tr>
+<tr><td class="small-text" colspan=3><span class = "bold">Exercise: </span><span id="ex-number">0</span> of 83</td></tr>
+
+
+</table>
+
+</div>
+
+    <script src="data.js"></script>
+</body>
+
+
+
+<style>
+th{
+    padding:5px;    
+}
+td,th{
+    margin:5px;
+    text-align:center;
+    align-items:center;
+}
+
+td{
+    font-size:20px;
+}
+#holder{
+    margin:auto;
+    width:300px;
+    margin-top:10%;
+
+}
+
+.line{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+table{
+    margin:auto;
+    width: 280 px;
+    border: 1px solid lightgray;
+    padding:15px;
+    border-radius: 5px;
+}
+
+.small-text{
+    font-size: 16px;    
+}
+
+.bold{
+    font-weight: bold;
+}
+
+</style>
+</html>
