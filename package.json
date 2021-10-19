@@ -8,7 +8,7 @@
   },
   "author": "",
   "license": "ISC",
-  "home":"https://vmetnev.githubpages.io/cycling",
+  "home":"https://vmetnev.github.io/cycling",
   "dependencies": {
     "gh-pages": "^3.2.3"
   }
